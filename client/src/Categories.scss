@@ -1,0 +1,17 @@
+.category-container {
+  display: flex;
+  text-align: left;
+  padding: 18px 0;
+  color: var(--gray-font);
+  width: 80%;
+
+  &__separator {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .greater-icon {
+    width: 10px;
+    height: 10px;
+  }
+}

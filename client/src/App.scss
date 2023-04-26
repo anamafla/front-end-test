@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
+    Arial, sans-serif;
+
+
+    #root {
+      margin: 0 auto;
+      text-align: center;
+      --yellow-bg: #fbd304;
+      --gray-bg: #e5e5e5;
+      --white-bg: white;
+      --gray-font: #777777;
+      --blue: #007bff;
+      --blue-button: #3483fa;
+    }
+}
+
+.App-header {
+  background-color: var(--yellow-bg);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+
+  .app-logo {
+    width: 60px;
+    margin-right: 20px;
+  }
+
+  .search-icon {
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+  }
+
+  form {
+    display: flex;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 2px;
+    background-color: var(--white-bg);
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    height: 40px;
+    padding: 10px 60px 10px 15px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1.5px;
+  }
+
+  button {
+    height: 40px;
+    border: none;
+    background-color: var(--gray-bg);
+
+    &:hover {
+      background-color: var(--gray-bg);
+    }
+  }
+}
